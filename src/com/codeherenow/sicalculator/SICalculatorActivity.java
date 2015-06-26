@@ -85,7 +85,7 @@ public class SICalculatorActivity extends Activity implements OnClickListener {
 
         Double result = principal_val * (interest_rate_val / 100.0) * years_val;
 
-        String output = "The interest for $" + String.format("%.2f", principal_val) + "at a rate of " + interest_rate_val + "% for " + years_val + " year(s) is $" + String.format("%.2f", result);
+        String output = "The interest for $" + String.format("%.2f", principal_val) + " at a rate of " + interest_rate_val + "% for " + years_val + " year(s) is $" + String.format("%.2f", result);
 
         calc_result.setText(output);
         }
